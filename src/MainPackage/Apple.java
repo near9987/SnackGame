@@ -7,6 +7,7 @@ public class Apple {
     private int xCoor, yCoor, width, height;
 
     public Apple(int xCoor, int yCoor, int tileSize) {
+    	System.out.println("test3");
         this.xCoor = xCoor;
         this.yCoor = yCoor;
         width = tileSize;

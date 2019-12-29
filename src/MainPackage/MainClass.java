@@ -8,13 +8,13 @@ public class MainClass {
         JFrame frame = new JFrame();
         GamePanel gamePanel = new GamePanel();
 
-    	System.out.println("test2");
+    	System.out.println("test3");
         frame.add(gamePanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Snacke Game");
         frame.setLocationRelativeTo(null);
 
-    	System.out.println("test2");
+    	System.out.println("test3");
         frame.pack();
         frame.setVisible(true);
     }
