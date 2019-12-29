@@ -5,6 +5,7 @@ import javax.swing.*;
 public class MainClass {
 
     public MainClass() {
+    	System.out.println();
         JFrame frame = new JFrame();
         GamePanel gamePanel = new GamePanel();
 
